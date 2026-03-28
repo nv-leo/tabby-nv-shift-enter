@@ -1,0 +1,41 @@
+{
+  "name": "tabby-nv-shift-enter",
+  "version": "1.0.0",
+  "description": "Tabby plugin that customizes Shift+Enter behavior with optional backslash newline",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["tabby", "tabby-plugin", "terminal", "hotkey"],
+  "author": "nv-leo",
+  "license": "ISC",
+  "type": "commonjs",
+  "peerDependencies": {
+    "@angular/core": "^15.0.0",
+    "@angular/common": "^15.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.1",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "tabby-core": "^1.0.197-nightly.1",
+    "tabby-terminal": "^1.0.197-nightly.1",
+    "tabby-settings": "^1.0.197-nightly.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nv-leo/tabby-nv-shift-enter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nv-leo/tabby-nv-shift-enter/issues"
+  },
+  "homepage": "https://github.com/nv-leo/tabby-nv-shift-enter#readme",
+  "tabbyPlugin": {
+    "name": "tabby-nv-shift-enter",
+    "displayName": "NV Shift Enter",
+    "description": "Customizes Shift+Enter behavior: sends newline only, or backslash newline for line continuation"
+  }
+}
