@@ -22,12 +22,22 @@ Tabby のプラグインマネージャーからインストール:
 
 手動でインストールする場合:
 
-```bash
-# macOS/Linux
-cd ~/.config/tabby
-npm install tabby-nv-shift-enter
+> **注意:** 手動インストールには npm へのパッケージ公開が必要です。"Not found" と表示される場合は、プラグインマネージャーをご利用ください。
 
-# Windows
+```bash
+# macOS
+cd ~/Library/Application\ Support/tabby/plugins
+npm install tabby-nv-shift-enter
+```
+
+```cmd
+:: Windows (コマンドプロンプト)
+cd %APPDATA%\tabby
+npm install tabby-nv-shift-enter
+```
+
+```powershell
+# Windows (PowerShell)
 cd "$env:APPDATA\tabby"
 npm install tabby-nv-shift-enter
 ```

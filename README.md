@@ -22,12 +22,22 @@ Install via Tabby's plugin manager:
 
 Or install manually:
 
-```bash
-# macOS/Linux
-cd ~/.config/tabby
-npm install tabby-nv-shift-enter
+> **Note:** Manual installation requires the package to be available on npm. If the command returns "Not found", use the plugin manager instead.
 
-# Windows
+```bash
+# macOS
+cd ~/Library/Application\ Support/tabby/plugins
+npm install tabby-nv-shift-enter
+```
+
+```cmd
+:: Windows (Command Prompt)
+cd %APPDATA%\tabby
+npm install tabby-nv-shift-enter
+```
+
+```powershell
+# Windows (PowerShell)
 cd "$env:APPDATA\tabby"
 npm install tabby-nv-shift-enter
 ```
