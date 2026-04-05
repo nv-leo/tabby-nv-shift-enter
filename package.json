@@ -1,6 +1,6 @@
 {
   "name": "tabby-nv-shift-enter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tabby plugin that customizes Shift+Enter behavior with optional backslash newline",
   "main": "dist/index.js",
   "scripts": {
@@ -8,7 +8,17 @@
     "watch": "tsc --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["tabby", "tabby-plugin", "terminal", "hotkey"],
+  "files": [
+    "dist",
+    "README.md",
+    "README.ja.md"
+  ],
+  "keywords": [
+    "tabby",
+    "tabby-plugin",
+    "terminal",
+    "hotkey"
+  ],
   "author": "nv-leo",
   "license": "ISC",
   "type": "commonjs",
